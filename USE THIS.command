@@ -3,8 +3,6 @@
 EPOCH="$(date +%s)" #Find epoch time for tmp files
 echo -n -e "\033]0;"$EPOCH"\007" #Set terminal window name to epoch for closing
 
-echo "Chua Title Visualizer (CTV) v2.017.4 by Jason Chua"
-echo "For Sammi <3"
 echo "To preserve output for debugging, pass an argument"
 
 ##Finds the most current version of After Effects (2014.2+ required)
